@@ -5,16 +5,16 @@ programa {
       "2 - Olive Garden \n", "3 - Starbucks \n", "4 - Girafas \n", "5 - Nenhum")
 
       inteiro optionChoiceRest
-      escreva("\n", "Digite sua opção: ")
+      escreva("\n", "Digite sua opÃ§Ã£o: ")
       leia(optionChoiceRest)
     } enquanto (optionChoiceRest != 1, 2, 3, 4, 5)
 
     faca {
       escreva("\n", "Escolha o modo de transporte desejado: \n", "1 - Uber \n", 
-      "2 - Transporte Público \n", "3 - Carro \n", "4 - Bicicleta \n", "5 - Andando")
+      "2 - Transporte PÃºblico \n", "3 - Carro \n", "4 - Bicicleta \n", "5 - Andando")
 
       inteiro optionChoiceTrans
-      escreva("\n", "Digite sua opção: ")
+      escreva("\n", "Digite sua opÃ§Ã£o: ")
       leia(optionChoiceTrans)
     } enquanto (optionChoiceTrans != 1, 2, 3, 4, 5)*/
           
@@ -60,7 +60,7 @@ programa {
       pare
       caso 2:
         speed = transSpeedArray[0]
-        transChosen = "Ônibus"
+        transChosen = "Ã”nibus"
       pare
       caso 3:
         speed = transSpeedArray[1]
@@ -83,7 +83,7 @@ programa {
     real travelTime = distance/speed
     
     limpa()
-    escreva("Restaurante: ", restChosen, "\nMeio de Transporte: ", transChosen, "\nPrevisão de tempo: ", travelTime)
+    escreva("Restaurante: ", restChosen, "\nMeio de Transporte: ", transChosen, "\nPrevisÃ£o de tempo: ", travelTime)
     }
          
   }
