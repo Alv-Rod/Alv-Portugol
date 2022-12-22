@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    escreva("Escolha uma opção: ", "\n1 - Qual o maior número?", "\n2 - Ímpar ou par?", "\n")
+    escreva("Escolha uma opÃ§Ã£o: ", "\n1 - Qual o maior nÃºmero?", "\n2 - Ãmpar ou par?", "\n")
     inteiro option
     leia(option)
     
@@ -13,13 +13,13 @@ programa {
         inteiro a, b, c
         leia(a,b,c)
         se (a > b) e (a > c) {
-          escreva("\n", a, " é maior.")
+          escreva("\n", a, " Ã© maior.")
         }
         senao se (b > a) e (b > c) 
-          escreva("\n", b, " é maior.")
+          escreva("\n", b, " Ã© maior.")
         }
         senao  
-          escreva("\n", c, " é maior.")
+          escreva("\n", c, " Ã© maior.")
         }
       pare
       caso 2:
