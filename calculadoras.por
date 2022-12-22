@@ -3,8 +3,8 @@ programa {
   inclua biblioteca Matematica --> mat
 
   funcao inicio() {
-    escreva("calculadoras")
-    escreva("\ninsira: ")
+    escreva("Calculadoras\n", "\n1 - Tabuadas Básicas", "\n2 - Equação Quadrática", "\n3 - Cálculo de IMC", "\n4 - Cálculo de Combustível")
+    escreva("\nInsira a opção desejada: ")
     inteiro option
     leia(option)
     
@@ -38,7 +38,7 @@ programa {
         leia(a, b, c)
         delta = (b*b) - 4*a*c
         /*se (delta < 0) {
-          escreva("Delta menor que 0, n�o existe X em reais")
+          escreva("Delta menor que 0, não existe X em reais")
         }*/
         sqrDelta = mat.raiz(delta, 2.0)
         x1 = ((-1)*b + sqrDelta)/2*a
@@ -78,7 +78,7 @@ programa {
       pare
 
       caso 4:
-        escreva("\nCalculo de Comb�stivel")
+        escreva("\nCalculo de Combústivel")
         real kmToTravel, lPerKm, fuelSpending
         escreva("\nDistancia a ser percorrida (em Km): ")
         leia(kmToTravel)
